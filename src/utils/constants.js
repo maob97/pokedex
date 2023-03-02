@@ -3,6 +3,10 @@ export const API_HOST = "https://pokeapi.co/api/v2";
 // En este archivo creamos la constante con la url de donde vamos a estirar la informacion
 //
 
+// Constante para usar la storage del telefono para los favoritos
+export const FAVORITE_STORAGE = 'favorites';
+
+// Esta constante son los colores que se utilizan para las pokemons cards
 export const POKEMON_TYPE_COLORS = {
   normal: "#A8A878",
   fighting: "#C03028",
@@ -24,4 +28,3 @@ export const POKEMON_TYPE_COLORS = {
   fairy: "#EE99AC",
 };
 
-// Esta constante son los colores que se utilizan para las pokemons cards

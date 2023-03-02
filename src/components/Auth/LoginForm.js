@@ -26,6 +26,7 @@ export default function LoginForm() {
 
       if (username !== user.username || password !== user.password) {
         setError("El usuario o la contraseña son incorrectas");
+        login()
       } else {
         login(userDetails);
       }
